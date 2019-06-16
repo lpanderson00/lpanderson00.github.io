@@ -1,4 +1,5 @@
 
+
 body, html {
   height: 100%;
   margin: 0px;
@@ -6,7 +7,7 @@ body, html {
 
 .bg { 
   width: 100%;
-  background-image: url("/background.JPG");
+  background-image: url("background.JPG");
   z-index: 3;
   height: 120vh; 
   margin: 0px;
@@ -19,20 +20,20 @@ body, html {
 h1 {
   font-family: "Helvetica";
   font-weight: bold;
-  font-size: 200px;
+  font-size: 50px;
   text-transform: uppercase;
-  padding-left: 500px;
-  padding-top: 850px;
+  padding-left: 125px;
+  padding-top: 200px;
   color: white;
   margin: 0px;
   }
 
 p {
   font-family: "helvetica"; 
-  font-size: 60px;
+  font-size: 15px;
   margin: 0 auto;
-  padding-left: 500px;
-  padding-top: 25px;
+  padding-left: 125px;
+  padding-top: 5px;
   color: white;
 
 }
@@ -40,7 +41,7 @@ p {
 .myResume {
   font-family: "Arial";
   font-weight: bold;
-  font-size: 100px;
+  font-size: 25px;
   text-decoration: none;
   color: grey;
   font-variant: small-caps;
@@ -48,56 +49,54 @@ p {
 }
 
 .resume {
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: white;
-  padding: 14px 28px 28px;
+  padding: 5px 10px 10px;
   cursor: pointer;
-  width: 500px;
+  width: 125px;
   margin: auto;
-  margin-top: -1000px;
+  margin-top: -300px;
   z-index: 5;
   text-align: center;
 }
 
 .resume:hover {
-  padding: 29px 43px 43px;
+  padding: 8px 13px 13px;
 }
 
 .social {
-  padding-top: 50px;
+  padding-top: 12px;
   text-align: center;
 }
 
 .fa {
   text-decoration: none;
   display: inline-block;
-  padding: 47px 47px;
-  border-radius: 70px;
-  margin: 20px;
+  padding: 14px 14px;
+  border-radius: 30px;
+  margin: 15px;
   }
 
 .fa-instagram {
   background: white;
   color: grey;
-  max-width: 150px
-  font-size: 400px;
+  max-width: 38px
 }
 
 .fa-linkedin {
   background: white;
   color: grey;
-  max-width: 150px
+  max-width: 38px
 
 }
 
 .fa-envelope-o {
   background: white;
   color: grey;
-  max-width: 150px
+  max-width: 38px
 }
 
 .fa:hover {
-padding: 55px 55px;
-  border-radius: 80px;
+padding: 16px 16px;
+  border-radius: 40px;
 }
-
