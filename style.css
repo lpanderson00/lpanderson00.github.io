@@ -5,7 +5,7 @@ body, html {
 
 .bg { 
   width: 100%;
-  background-image: url("background.mobile.jpg");
+  background-image: url("background.mobile.grey.jpg");
   z-index: 3;
   height: 120vh; 
   margin: 0px;
@@ -111,7 +111,7 @@ body, html {
 
 .bg { 
   width: 100%;
-  background-image: url("background.JPG");
+  background-image: url("background.grey.JPG");
   z-index: 3;
   height: 120vh; 
   margin: 0px;
