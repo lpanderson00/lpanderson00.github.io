@@ -111,7 +111,7 @@ body, html {
 
 .bg { 
   width: 100%;
-  background-image: url("background.grey.JPG");
+  background-image: url("background.grey.jpg");
   z-index: 3;
   height: 120vh; 
   margin: 0px;
