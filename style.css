@@ -11,7 +11,7 @@ body, html {
   margin: 0px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; s
+  background-size: cover; 
   z-index: 1;
 }
 
@@ -41,10 +41,10 @@ p {
 .links {
   position: fixed;
   bottom: 50px;
-  text-alight: center;
+  text-align: center;
   margin: 0 auto;
   display: flex;
-  justify-content: center
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100%;
@@ -71,6 +71,10 @@ p {
   text-align: center;
 }
 
+.resume a {
+  transition: all 0.3s ease 0s;
+}
+
 .resume:hover {
   padding: 8px 13px 13px;
 }
@@ -78,6 +82,10 @@ p {
 .social {
   padding-top: 12px;
   text-align: center;
+}
+
+.social a {
+  transition: all 0.3s ease 0s;
 }
 
 .fa {
@@ -128,7 +136,7 @@ body, html {
   margin: 0px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; s
+  background-size: cover;
   z-index: 1;
 }
 
@@ -157,10 +165,10 @@ p {
 .links {
   position: fixed;
   bottom: 50px;
-  text-alight: center;
+  text-align: center;
   margin: 0 auto;
   display: flex;
-  justify-content: center
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100%;
@@ -185,6 +193,7 @@ p {
   margin: auto;
   z-index: 5;
   text-align: center;
+  transition: all 0.3s ease-out 0s;
 }
 
 .resume:hover {
@@ -194,6 +203,10 @@ p {
 .social {
   padding-top: 12px;
   text-align: center;
+}
+
+.social a {
+  transition: all 0.3s ease 0s;
 }
 
 .fa {
@@ -224,8 +237,6 @@ p {
 }
 
 .fa:hover {
-padding: 16px 16px;
+  padding: 16px 16px;
   border-radius: 40px;
-}
-}
-
+} 
